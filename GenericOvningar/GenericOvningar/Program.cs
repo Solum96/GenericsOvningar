@@ -36,7 +36,19 @@ namespace GenericOvningar
             }
             Console.ReadKey(); */
 
+            Mammal dog = new Dog("Berta");
+            Mammal cat = new Cat();
+            Bird crow = new Crow();
+            Reptile snake = new Snake();
 
+            Dictionary<string, Animal> myDictionary = new Dictionary<string, Animal>();
+            myDictionary.Add("Dog", dog);
+            myDictionary.Add("Cat", cat);
+            myDictionary.Add("Bird", crow);
+            myDictionary.Add("Snake", snake);
+
+            Console.WriteLine(myDictionary["Dog"]);
+            Console.ReadKey();
         }
     }
 }
