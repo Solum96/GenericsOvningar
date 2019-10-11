@@ -36,6 +36,8 @@ namespace GenericOvningar
             }
             Console.ReadKey(); */
 
+            /* ÖVNING 3
+             
             Mammal dog = new Dog("Berta");
             Mammal cat = new Cat();
             Bird crow = new Crow();
@@ -48,7 +50,11 @@ namespace GenericOvningar
             myDictionary.Add("Snake", snake);
 
             Console.WriteLine(myDictionary["Dog"]);
-            Console.ReadKey();
+            Console.ReadKey(); */
+
+            
         }
+
+        
     }
 }
