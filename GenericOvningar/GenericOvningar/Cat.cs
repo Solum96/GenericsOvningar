@@ -1,6 +1,12 @@
 ﻿namespace GenericOvningar
 {
-    internal class Cat : Mammal
+    public class Cat : Mammal
     {
+        public string name;
+
+        public Cat(string name)
+        {
+            this.name = name;
+        }
     }
 }

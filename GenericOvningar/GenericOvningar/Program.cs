@@ -52,9 +52,31 @@ namespace GenericOvningar
             Console.WriteLine(myDictionary["Dog"]);
             Console.ReadKey(); */
 
+            Dog dog1 = new Dog("Berta");
+            Dog dog2 = new Dog("Saga");
+            Cat cat1 = new Cat("Grå");
+
+            StackALot<Animal> myStack = new StackALot<Animal>();
+
+            myStack.Push(dog1);
+            myStack.Push(dog2);
+            myStack.Push(cat1);
+
+            //Console.WriteLine(myStack.Pop());
+            //Console.WriteLine(myStack.Pop());
+            //Console.WriteLine(myStack.Pop());
+            //Console.ReadKey();
+
+            Stack<Animal> myStack2 = new Stack<Animal>();
+            myStack2.Push(dog1);
+            myStack2.Push(dog2);
+            myStack2.Push(cat1);
+
+            //Console.WriteLine(myStack2.Pop());
+            //Console.WriteLine(myStack2.Pop());
+            //Console.WriteLine(myStack2.Pop());
+
             
         }
-
-        
     }
 }

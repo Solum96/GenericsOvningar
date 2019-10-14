@@ -48,6 +48,7 @@
     <Compile Include="Cat.cs" />
     <Compile Include="Crow.cs" />
     <Compile Include="Dog.cs" />
+    <Compile Include="Fordon.cs" />
     <Compile Include="Jewel.cs" />
     <Compile Include="Mammal.cs" />
     <Compile Include="Program.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Reptile.cs" />
     <Compile Include="Safe.cs" />
     <Compile Include="Snake.cs" />
+    <Compile Include="StackALot.cs" />
     <Compile Include="Trio.cs" />
   </ItemGroup>
   <ItemGroup>
