@@ -2,8 +2,8 @@
 {
     public class Trio<T> where T : Animal
     {
-        public T PRI { get; set; }
-        public T DUO { get; set; }
-        public T TRI { get; set; }
+        public Fordon PRI { get; set; }
+        public Fordon DUO { get; set; }
+        public Fordon TRI { get; set; }
     }
 }
